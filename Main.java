@@ -4,14 +4,14 @@ public class Main {
       try{
         Scanner scanner = new Scanner(System.in);
         String string = "";
-        // while(scanner.hasNext()){
-         //    string = string + scanner.next() + " ";
-       //  }
-        //  System.out.print(string.trim());
-          System.out.println(scanner.next());
+         while(scanner.hasNext()){
+             string = string + scanner.next() + " ";
+         }
+          System.out.print(string.trim());
+//          System.out.println(scanner.next());
         
       } catch(Exception e){
-        System.out.println("An error was found ");
+        System.out.println("An error was found");
       }
       
     }
